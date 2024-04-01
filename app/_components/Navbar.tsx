@@ -31,22 +31,23 @@ export default function NavBar() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isScrolled, setIsScrolled] = useState(false);
 
-  const getClassName = () => {
-    if (isScrolled) {
-      return styles.sticky;
-    }
-    return null;
-  }
+  // const getClassName = () => {
+  //   if (isScrolled) {
+  //     return styles.sticky;
+  //   }
+  //   return null;
+  // }
 
-  const handleScroll = () => {
-    const navbar = document.getElementById("nav");
-    const sticky = navbar?.offsetTop;
-    if (sticky && window.pageYOffset > sticky) {
-      setIsScrolled(true)
-    } else {
-      setIsScrolled(false)
-    }
-  }
+  // const handleScroll = () => {
+  //   const navbar = document.getElementById("nav");
+  //   const sticky = navbar?.offsetTop;
+  //   if (sticky && window.pageYOffset > sticky) {
+  //     setIsScrolled(true)
+  //   } else {
+  //     setIsScrolled(false)
+  //   }
+  // }
+
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" className={`p-0 w-full hidden lg:block h-[88px] ${styles.bgColoured}`}>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

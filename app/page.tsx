@@ -1,4 +1,3 @@
-import Image from "next/image";
 import NavBar from "./_components/Navbar";
 import SectionTemplate from "./_components/SectionTemplate";
 import Acting from "./_components/_sections/Acting";
