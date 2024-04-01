@@ -47,6 +47,7 @@ export default function NavBar() {
   //     setIsScrolled(false)
   //   }
   // }
+
     return (
         <Navbar collapseOnSelect expand="lg" variant="dark" className={`p-0 w-full hidden lg:block h-[88px] ${styles.bgColoured}`}>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />

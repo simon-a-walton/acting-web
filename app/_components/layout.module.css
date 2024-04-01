@@ -1,0 +1,39 @@
+.container {
+/*  max-width: 36rem;*/
+/*  padding: 0 1rem;*/
+/*  margin: 3rem auto 6rem;*/
+background: #EBF2FF;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+img.AKLogo {
+  height: 5vw;
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin: 8px 8px;
+}
+
+img.spotlightLogo {
+  height: 5vw;
+   position: absolute;
+   top: 0;
+   left: 0;
+   margin: 8px 8px;
+}
+
+
+.heading {
+  padding: 40px 0;
+  position: relative;
+}
+
