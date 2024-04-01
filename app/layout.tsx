@@ -16,7 +16,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className={`flex items-center px-8 lg:px-24 bg-white justify-between text-center py-3`}>
+            <a href="https://akagents.co.uk" target="_blank">
+              <img
+                src="/images/AK.png"
+                alt="AK Agents"
+                className="h-10 lg:h-20"
+              />
+            </a>
+            <header className="font-bold text-[20px] lg:text-[36px]">
+                Simon Walton
+              </header>
+            <a href="https://app.spotlight.com/2212-9057-3356" target="_blank" className="d-block">
+              <img
+                src="/images/spotlight.png"
+                alt="Spotlight"
+                className="h-10 lg:h-20"
+              />
+            </a>
+        </div>
+        {children}
+      </body>
     </html>
   );
 }
